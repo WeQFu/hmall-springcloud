@@ -1,0 +1,59 @@
+# ============== IDE配置 ==============
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+### Eclipse ###
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+
+### VS Code ###
+.vscode/
+
+# ============== 构建工具产物 ==============
+### Maven/Gradle ###
+target/
+build/
+.gradle/
+.mvn/
+!mvnw
+!mvnw.cmd
+!gradlew
+!gradlew.bat
+
+### 依赖管理 ###
+**/jars/
+dependency-reduced-pom.xml
+
+# ============== 编译与日志 ==============
+*.class
+*.jar
+*.war
+*.log
+logs/
+*.log.*
+
+# ============== 系统与敏感文件 ==============
+### 操作系统生成文件 ###
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+### 环境变量/密钥 ###
+.env
+*.jks
+*.p12
+
+### 分布式追踪临时文件 ###
+zipkin-server/
+*.trace
