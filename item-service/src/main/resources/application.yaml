@@ -1,10 +1,5 @@
 server:
   port: 8081
-feign:
-  okhttp:
-    enabled: true
-  sentinel:
-    enabled: true
 hm:
   db:
     database: hm-item
